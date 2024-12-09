@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Sobre Mim</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Nav contendo os links de navegação -->
+    <nav class="links">
+      <ul>
+        <li>
+          <a href="#sobre-mim" class="link">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#formacao" class="link">Minhas Formações</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="link">Portfólio</a>
+        </li>
+        <li>
+          <a href="#contato" class="link">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- div contendo os elementos do avatar -->
+    <div class="container-avatar">
+      <div class="avatar">
+        <img src="images/perfil.jpg" alt="imagem de perfil">
+        <p>Lucas Fujii Tanino</p>
+      </div>
+    </div>
+    <!-- sections contendo o conteúdo da página -->
+    <section id="sobre-mim">
+      <div class="container-section">
+        <h2>Sobre Mim</h2>
+        <p>Natural de Londrina - PR, tenho 21 anos e vivo desde a infância em Pato Branco - PR. Sempre apaixonado pela tecnologia, cresci com um pai que possui muito conhecimento de eletrônica e informática, assim o meu interesse por computadores e videogames nasceu. Tive meu primeiro contato com a programação durante o primeiro período do bacharelado em engenharia mecânica pela UTFPR - campus de Pato Branco. Aprender a programar o básico na linguagem C foi o que despertou o meu interesse na área do desenvolvimento de softwares</p>
+      </div>
+    </section>
+    <section id="formacao">
+      <div class="container-section">
+        <h2>Minhas Formações</h2>
+        <h3>Formações:</h3>
+          <ul>
+            <li>Desenvolvedor Full Stack Python em formação pela EBAC - Escola Britânica de Artes Criativas e Tecnologia</li>
+            <li>Cursando Análise e Desenvolvimento de Sistemas pela UNINTER.</li>
+          </ul>
+        <h3>Idiomas:</h3>
+          <ul>
+            <li>Inglês - Avançado</li>
+            <li>Japonês - Básico</li>
+          </ul>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container-section">
+        <h2>Portfólio</h2>
+        <ul>
+          <li>
+            Clone da landing page do Disney+
+            <br>
+            <a href="https://github.com/WisterianWell/clone_disneyplus" target="_blank">https://github.com/WisterianWell/clone_disneyplus</a>
+            <br>
+            <a href="https://clone-disneyplus-iota-three.vercel.app/" target="_blank">https://clone-disneyplus-iota-three.vercel.app/</a>
+          </li>
+          <li>
+            Landing page em React
+            <br>
+            <a href="https://github.com/WisterianWell/Efood" target="_blank">https://github.com/WisterianWell/Efood</a>
+            <br>
+            <a href="https://efood-lucas-tanino.vercel.app/" target="_blank">https://efood-lucas-tanino.vercel.app/</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contato">
+      <div class="container-section">
+        <h2>Contato</h2>
+        <form action="">
+          <div class="form-input">
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" name="nome">
+          </div>
+          <div class="form-input">
+            <label for="email">Digite seu email:</label>
+            <input type="email" name="email" id="">
+          </div>
+          <div class="form-input">
+            <label for="texto">Digite sua mensagem:</label>
+            <textarea name="texto"></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
